@@ -1,0 +1,149 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+body{
+    margin-top:0px;
+    background: #b1aeae;
+    
+}
+.navbar{
+    background-color: rgb(122, 206, 206) !important;
+}
+.card {
+    border: none;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    margin-bottom: 30px;
+}
+.w-60 {
+    width: 60px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+
+navbar{
+background-color: #6d6a6a;
+}
+.container{
+    margin-top: 50px;
+}
+.social-links li a {
+    -webkit-border-radius: 50%;
+    background-color: rgba(89,206,181,.85);
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+    font-size: 12px;
+}
+a {
+    color: #707070;
+}
+
+.img-fluid{
+    width: 500px;
+}
+
+.cardHight{
+    width: 45%;
+    margin-left: 50PX;
+}
+iframe
+{
+    margin-top: 20px;
+    margin-left: 10%;
+    width:80%;
+    
+     
+}
+.gauche>li{
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.marquee-rtl {
+    max-width: 30em;                      /* largeur de la fenêtre */
+    margin: 1em auto 2em;
+    border: 10px solid #F0F0FF;
+    overflow: hidden;                     /* masque tout ce qui dépasse */
+    box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+  }
+
+  .marquee-rtl > :first-child {
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 2em;                   /* un peu d'espace pour la transition */
+    padding-left: 100%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 15s infinite linear;
+  }
+  @keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+  }  
+
+  li
+{
+  list-style-type: none;
+  margin-left: 1vw;
+}
+
+li:first-child
+{
+  margin:0;
+}
+
+footer
+{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 0;
+  width: 100%;
+}
+
+.content
+{
+  height: 2vh;
+  background-color: lightgray;
+}
+
+.containerr
+{
+    background-color: rgb(122, 206, 206);
+}
+
+.copyright,  .impressum
+{
+  text-align: center;
+}
+
+.logo
+{
+  height: 4vh;
+}
+
+@media (max-width: 768px) 
+{
+  li
+  {
+    margin-left: 0;
+    margin-bottom: 1vh;
+  }
+  
+  .sozial
+  {
+    margin-bottom: 1vh;
+  }
+}
